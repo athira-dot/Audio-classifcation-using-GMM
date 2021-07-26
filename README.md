@@ -1,1 +1,4 @@
 In this project,whitening transform on speech spectrogram of audio files are studied to analyse the speech data.A speech spectrogram shows the Fourier Transform of a signal as it varies with time. A whitening transformation or sphering transformation is a linear transformation that transforms a vector of random variables with a known covariance matrix into a set of new variables whose covariance is the identity matrix, meaning that they are uncorrelated and each have variance 1.The covariance matrix of spectrogram of data before whitening
+![alt text](https://github.com/athira-dot/Speech_Spectrogram/blob/main/covaraianne_before_whitening.png)
+The covariance matrix of spectrogram of data after whitening
+![alt text](https://github.com/athira-dot/Speech_Spectrogram/blob/main/covarince_after_whitening.png)
