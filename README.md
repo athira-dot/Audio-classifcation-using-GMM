@@ -37,8 +37,48 @@ The average absolute value of the non-diagonal entry for noisy audio is: 9.28559
 <img src='Spectorgram_of_noisy_audio_after_whiening.png'>
 <figcaption>The spectogram of the noisy audio after whitening.
 </figure>
-
-	
-	
-
 </p>
+	
+	
+	
+	
+	
+	
+	
+	
+<p>	
+	
+
+test_accuracy 70.83333333333334
+
+2-GMM with FULL-Covariance matrix test_accuracy 87.5
+
+2-GMM with Diagonal-Covariance matrix test_accuracy 68.75
+
+5-GMM with FULL-Covariance matrix test_accuracy 89.58333333333334
+
+5-GMM with Diagonal-Covariance matrix test_accuracy 70.83333333333334
+
+We observed the following thing from the above experiment.
+
+The accuaracy of the 5-GMM is more than 2-GMM model.
+
+The accuracy of the 2-GMM with full-covariance matrix is more than 2-GMM with Diagonal covariance matrix.
+
+The accuracy of the 5-GMM with full-covariance matrix is more than 5-GMM with Diagonal covariance matrix.
+
+Because, GMM-model with more guassians can model data in a better manner.
+
+GMM-with full-covariance matrix is more powerful than Daiagonal covariance matrix.
+
+In the diagonal covariance matrix, we are modeling features as independent.
+
+In the full-covariance matrix, we are considering correlation between individual features.
+
+That's why, GMM-model with full-covariance matrix is more powerful than GMM-with diagonal covariance matrix.
+
+</p>	
+	
+	
+	
+	
