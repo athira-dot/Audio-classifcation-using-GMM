@@ -19,6 +19,13 @@ In this project,whitening transform on speech spectrogram of audio files are stu
  </figcaption>
 </figure>
 
+
+<p >
+The above two plots represent the covariance matrices of the noisy audio and its whitening transformation. We can see the differences between the above two covariance matrix plottings. After whitening, the covariance matrix of noisy audio is the identity matrix, and all the non-diagonal entries are almost zero.
+
+The average absolute value of the non-diagonal entry for noisy audio is: 9.285590908753007e-17
+
+</p>
 	
 <figure>
 <img src='spactogram_of_noisy_audio.png'>
