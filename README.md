@@ -16,8 +16,7 @@ In this project, whitening transform on speech spectrogram of audio files are st
 
 <figure>
 	<img src='covarince_after_whitening.png'>
-    <figcaption>The covariance matrix of spectrogram of data after whitening
- </figcaption>
+    <figcaption>The covariance matrix of spectrogram of data after whitening</figcaption>
 </figure>
 
 
@@ -30,23 +29,26 @@ The average absolute value of the non-diagonal entry for noisy audio is: 9.28559
 	
 <figure>
 <img src='spactogram_of_noisy_audio.png'>
-<figcaption>The spectogram of the noisy audio before whitening.
+<figcaption>The spectogram of the noisy audio before whitening.</figcaption>
 </figure>
 
 <figure>
 <img src='Spectorgram_of_noisy_audio_after_whiening.png'>
-<figcaption>The spectogram of the noisy audio after whitening.
+<figcaption>The spectogram of the noisy audio after whitening.</figcaption>
 </figure>
 </p>
 	
-	
-	
-	
-	
-	
-	
-	
 <p>	
+	
+log_likelihood_speech_vs_music.png	
+	
+
+<figure>
+<img src='log_likelihood_speech_vs_music.png'>
+<figcaption>log likelihood graph for speech and music</figcaption>
+</figure>
+
+	
 	
 
 test_accuracy 70.83333333333334
