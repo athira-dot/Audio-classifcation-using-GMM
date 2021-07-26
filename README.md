@@ -19,5 +19,18 @@ In this project,whitening transform on speech spectrogram of audio files are stu
  </figcaption>
 </figure>
 
+	
+<figure>
+<img src='spactogram_of_noisy_audio.png'>
+<figcaption>The spectogram of the noisy audio before whitening.
+</figure>
+
+<figure>
+<img src='Spectorgram_of_noisy_audio_after_whiening.png'>
+<figcaption>The spectogram of the noisy audio after whitening.
+</figure>
+
+	
+	
 
 </p>
