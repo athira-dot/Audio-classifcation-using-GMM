@@ -49,7 +49,7 @@ log_likelihood_speech_vs_music.png
 </figure>
 
 	
-	
+<h2> Audio classification using GMM Results:	</h2>
 
 test_accuracy 70.83333333333334
 
